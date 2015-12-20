@@ -1,0 +1,32 @@
+{
+	"name": "henkes-theme",
+	"displayName": "Henke's Theme",
+	"description": "Henke's Theme for Visual Studio Code",
+	"version": "0.0.1",
+	"publisher": "henriiik",
+	"author": "Henrik Sjööh <hello@enhenrik.nu> (http://www.enhenrik.nu)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/henriiik/vscode-henkes-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/henriiik/vscode-henkes-theme/issues"
+	},
+	"homepage": "https://github.com/henriiik/vscode-henkes-theme/tree/master",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Henke's Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/henke.tmTheme"
+			}
+		]
+	}
+}
