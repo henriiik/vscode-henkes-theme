@@ -37,7 +37,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CCCCCC</string>
+				<string>#90A4AE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -48,7 +48,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#999999</string>
+				<string>#546E7A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -71,7 +71,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9FA8DA</string>
+				<string>#7986CB</string>
 			</dict>
 		</dict>
 		<!-- Blue -->
@@ -83,7 +83,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#90CAF9</string>
+				<string>#64B5F6</string>
 			</dict>
 		</dict>
 		<!-- Light Blue -->
@@ -95,7 +95,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#81D4FA</string>
+				<string>#4FC3F7</string>
 			</dict>
 		</dict>
 		<!-- Teal -->
@@ -107,7 +107,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80CBC4</string>
+				<string>#4DB6AC</string>
 			</dict>
 		</dict>
 		<!-- Light Green -->
@@ -119,7 +119,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C5E1A5</string>
+				<string>#81C784</string>
 			</dict>
 		</dict>
 		<!-- Cyan -->
@@ -143,7 +143,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B39DDB</string>
+				<string>#4DD0E1</string>
 			</dict>
 		</dict>
 		<!-- Purple -->
@@ -155,7 +155,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CE93D8</string>
+				<string>#BA68C8</string>
 			</dict>
 		</dict>
 		<!-- Green -->
@@ -167,7 +167,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A5D6A7</string>
+				<string>#9575CD</string>
 			</dict>
 		</dict>
 	</array>
