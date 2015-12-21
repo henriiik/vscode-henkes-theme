@@ -77,9 +77,9 @@
 		<!-- Blue -->
 		<dict>
 			<key>name</key>
-			<string>Operator</string>
+			<string>Variable</string>
 			<key>scope</key>
-			<string>keyword.operator</string>
+			<string>variable, string.variable, declaration.variable, meta.parameter.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -125,9 +125,9 @@
 		<!-- Cyan -->
 		<dict>
 			<key>name</key>
-			<string>Variable</string>
+			<string>Operator</string>
 			<key>scope</key>
-			<string>variable, string.variable, declaration.variable, meta.parameter.variable</string>
+			<string>keyword.operator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
