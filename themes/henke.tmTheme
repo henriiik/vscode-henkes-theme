@@ -62,12 +62,48 @@
 				<string>#666666</string>
 			</dict>
 		</dict>
-		<!-- Indigo -->
+		<!-- Pink -->
+		<dict>
+			<key>name</key>
+			<string>Operator</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F06292</string>
+			</dict>
+		</dict>
+		<!-- Purple -->
 		<dict>
 			<key>name</key>
 			<string>Keyword, Storage</string>
 			<key>scope</key>
 			<string>keyword, storage.modifier, storage.type, meta.parameter.storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BA68C8</string>
+			</dict>
+		</dict>
+		<!-- Deep Purple -->
+		<!--<dict>
+			<key>name</key>
+			<string>Keyword, Storage</string>
+			<key>scope</key>
+			<string>keyword, storage.modifier, storage.type, meta.parameter.storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9575CD</string>
+			</dict>
+		</dict>-->
+		<!-- Indigo -->
+		<dict>
+			<key>name</key>
+			<string>Class</string>
+			<key>scope</key>
+			<string>class.entity.name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -98,6 +134,18 @@
 				<string>#4FC3F7</string>
 			</dict>
 		</dict>
+		<!-- Cyan -->
+		<dict>
+			<key>name</key>
+			<string>Function</string>
+			<key>scope</key>
+			<string>function.entity.name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4DD0E1</string>
+			</dict>
+		</dict>
 		<!-- Teal -->
 		<dict>
 			<key>name</key>
@@ -110,7 +158,7 @@
 				<string>#4DB6AC</string>
 			</dict>
 		</dict>
-		<!-- Light Green -->
+		<!-- Green -->
 		<dict>
 			<key>name</key>
 			<string>Escape Charater, Constants</string>
@@ -122,52 +170,16 @@
 				<string>#81C784</string>
 			</dict>
 		</dict>
-		<!-- Cyan -->
+		<!-- Light Green -->
 		<dict>
 			<key>name</key>
-			<string>Operator</string>
-			<key>scope</key>
-			<string>keyword.operator</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#80DEEA</string>
-			</dict>
-		</dict>
-		<!-- Deep Purple -->
-		<dict>
-			<key>name</key>
-			<string>Class</string>
-			<key>scope</key>
-			<string>class.entity.name</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#4DD0E1</string>
-			</dict>
-		</dict>
-		<!-- Purple -->
-		<dict>
-			<key>name</key>
-			<string>Function</string>
-			<key>scope</key>
-			<string>function.entity.name</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#BA68C8</string>
-			</dict>
-		</dict>
-		<!-- Green -->
-		<dict>
-			<key>name</key>
-			<string>Function</string>
+			<string>Preprocess</string>
 			<key>scope</key>
 			<string>meta.preprocessor.string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9575CD</string>
+				<string>#AED581</string>
 			</dict>
 		</dict>
 	</array>
