@@ -127,7 +127,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>declaration.variable, declaration.parameter.variable</string>
+			<string>variable, string.variable, declaration.variable, meta.parameter.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
