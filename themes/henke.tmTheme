@@ -65,9 +65,9 @@
 		<!-- Pink -->
 		<dict>
 			<key>name</key>
-			<string>Operator</string>
+			<string>Escape Charater, Constants</string>
 			<key>scope</key>
-			<string>keyword.operator</string>
+			<string>string.escape, constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -79,7 +79,7 @@
 			<key>name</key>
 			<string>Keyword, Storage</string>
 			<key>scope</key>
-			<string>keyword, storage.modifier, storage.type, meta.parameter.storage.type</string>
+			<string>keyword, storage, storage.modifier, storage.type, meta.parameter.storage.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -87,23 +87,23 @@
 			</dict>
 		</dict>
 		<!-- Deep Purple -->
-		<!--<dict>
+		<dict>
 			<key>name</key>
-			<string>Keyword, Storage</string>
+			<string>Operator</string>
 			<key>scope</key>
-			<string>keyword, storage.modifier, storage.type, meta.parameter.storage.type</string>
+			<string>keyword.operator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#9575CD</string>
 			</dict>
-		</dict>-->
+		</dict>
 		<!-- Indigo -->
 		<dict>
 			<key>name</key>
-			<string>Class</string>
+			<string>Variable</string>
 			<key>scope</key>
-			<string>class.entity.name</string>
+			<string>variable, string.variable, declaration.variable, meta.parameter.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -113,9 +113,9 @@
 		<!-- Blue -->
 		<dict>
 			<key>name</key>
-			<string>Variable</string>
+			<string>Class</string>
 			<key>scope</key>
-			<string>variable, string.variable, declaration.variable, meta.parameter.variable</string>
+			<string>class.entity.name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -127,7 +127,7 @@
 			<key>name</key>
 			<string>This</string>
 			<key>scope</key>
-			<string>constant.this</string>
+			<string>constant.this, predefined.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -161,9 +161,9 @@
 		<!-- Green -->
 		<dict>
 			<key>name</key>
-			<string>Escape Charater, Constants</string>
+			<string>Support</string>
 			<key>scope</key>
-			<string>string.escape, constant</string>
+			<string>function.support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
