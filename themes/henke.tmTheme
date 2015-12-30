@@ -1,187 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>author</key>
-	<string>henriiik</string>
-	<key>comment</key>
-	<string>Henke's Theme</string>
-	<key>name</key>
-	<string>Henke's Theme</string>
-	<key>settings</key>
-	<array>
-		<!-- White -->
-		<dict>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Parameter Type</string>
-			<key>scope</key>
-			<string>meta.parameter.type</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<!-- Gray -->
-		<dict>
-			<key>name</key>
-			<string>Delimiter</string>
-			<key>scope</key>
-			<string>delimiter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#90A4AE</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Comment</string>
-			<key>scope</key>
-			<string>comment, comment.block</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#546E7A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Whitespace</string>
-			<key>scope</key>
-			<string>whitespace</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#666666</string>
-			</dict>
-		</dict>
-		<!-- Pink -->
-		<dict>
-			<key>name</key>
-			<string>Escape Charater, Constants</string>
-			<key>scope</key>
-			<string>string.escape, constant</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F06292</string>
-			</dict>
-		</dict>
-		<!-- Purple -->
-		<dict>
-			<key>name</key>
-			<string>Keyword, Storage</string>
-			<key>scope</key>
-			<string>keyword, storage, storage.modifier, storage.type, meta.parameter.storage.type</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#BA68C8</string>
-			</dict>
-		</dict>
-		<!-- Deep Purple -->
-		<dict>
-			<key>name</key>
-			<string>Operator</string>
-			<key>scope</key>
-			<string>keyword.operator</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#9575CD</string>
-			</dict>
-		</dict>
-		<!-- Indigo -->
-		<dict>
-			<key>name</key>
-			<string>Support</string>
-			<key>scope</key>
-			<string>function.support</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#7986CB</string>
-			</dict>
-		</dict>
-		<!-- Blue -->
-		<dict>
-			<key>name</key>
-			<string>Variable</string>
-			<key>scope</key>
-			<string>variable, string.variable, declaration.variable, meta.parameter.variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#64B5F6</string>
-			</dict>
-		</dict>
-		<!-- Light Blue -->
-		<dict>
-			<key>name</key>
-			<string>Class</string>
-			<key>scope</key>
-			<string>class.entity.name</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#4FC3F7</string>
-			</dict>
-		</dict>
-		<!-- Cyan -->
-		<dict>
-			<key>name</key>
-			<string>Function</string>
-			<key>scope</key>
-			<string>function.entity.name</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#4DD0E1</string>
-			</dict>
-		</dict>
-		<!-- Teal -->
-		<dict>
-			<key>name</key>
-			<string>String</string>
-			<key>scope</key>
-			<string>string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#4DB6AC</string>
-			</dict>
-		</dict>
-		<!-- Green -->
-		<dict>
-			<key>name</key>
-			<string>This</string>
-			<key>scope</key>
-			<string>constant.this, predefined.variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#81C784</string>
-			</dict>
-		</dict>
-		<!-- Light Green -->
-		<dict>
-			<key>name</key>
-			<string>Preprocess</string>
-			<key>scope</key>
-			<string>meta.preprocessor.string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#AED581</string>
-			</dict>
-		</dict>
-	</array>
-</dict>
+  <dict>
+    <key>author</key>
+    <string>henriiik</string>
+    <key>comment</key>
+    <string>Henke's Theme</string>
+    <key>name</key>
+    <string>Henke's Theme</string>
+    <key>settings</key>
+    <array>
+      <dict>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Parameter Type</string>
+        <key>scope</key>
+        <string>meta.parameter.type</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Delimiter</string>
+        <key>scope</key>
+        <string>delimiter</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#90A4AE</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Comment</string>
+        <key>scope</key>
+        <string>comment, comment.block</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#546E7A</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Whitespace</string>
+        <key>scope</key>
+        <string>whitespace</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#263238</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Escape Charater, Constants</string>
+        <key>scope</key>
+        <string>string.escape, constant</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F06292</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keyword, Storage</string>
+        <key>scope</key>
+        <string>keyword, storage, storage.modifier, storage.type, meta.parameter.storage.type</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#BA68C8</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Operator</string>
+        <key>scope</key>
+        <string>keyword.operator</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9575CD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Support</string>
+        <key>scope</key>
+        <string>function.support</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7986CB</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Variable</string>
+        <key>scope</key>
+        <string>variable, string.variable, declaration.variable, meta.parameter.variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#64B5F6</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Class</string>
+        <key>scope</key>
+        <string>class.entity.name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4FC3F7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Function</string>
+        <key>scope</key>
+        <string>function.entity.name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4DD0E1</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>String</string>
+        <key>scope</key>
+        <string>string</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4DB6AC</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>This</string>
+        <key>scope</key>
+        <string>constant.this, predefined.variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#81C784</string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
 </plist>
