@@ -44,7 +44,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, comment.block</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -101,9 +101,9 @@
 		<!-- Indigo -->
 		<dict>
 			<key>name</key>
-			<string>Variable</string>
+			<string>Support</string>
 			<key>scope</key>
-			<string>variable, string.variable, declaration.variable, meta.parameter.variable</string>
+			<string>function.support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -113,9 +113,9 @@
 		<!-- Blue -->
 		<dict>
 			<key>name</key>
-			<string>Class</string>
+			<string>Variable</string>
 			<key>scope</key>
-			<string>class.entity.name</string>
+			<string>variable, string.variable, declaration.variable, meta.parameter.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -125,9 +125,9 @@
 		<!-- Light Blue -->
 		<dict>
 			<key>name</key>
-			<string>This</string>
+			<string>Class</string>
 			<key>scope</key>
-			<string>constant.this, predefined.variable</string>
+			<string>class.entity.name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -161,9 +161,9 @@
 		<!-- Green -->
 		<dict>
 			<key>name</key>
-			<string>Support</string>
+			<string>This</string>
 			<key>scope</key>
-			<string>function.support</string>
+			<string>constant.this, predefined.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
