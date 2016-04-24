@@ -25,17 +25,8 @@
       {
         "label": "Henke's Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/henke.tmTheme"
+        "path": "./themes/henke_plus.json"
       }
     ]
-  },
-  "scripts": {
-    "vscode:prepublish": "node ./node_modules/.bin/tsc -p ./",
-    "compile": "node ./node_modules/.bin/tsc -watch -p ./"
-  },
-  "devDependencies": {
-    "plist": "^1.2.0",
-    "tslint": "^3.2.1",
-    "typescript": "^1.7.5"
   }
 }

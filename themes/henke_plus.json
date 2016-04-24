@@ -1,0 +1,73 @@
+{
+    "name": "Henke's JSON Theme+",
+    "include": "./henke.json",
+    "settings": [
+        {
+            "name": "Types declaration and references",
+            "scope": [
+                "meta.type.name",
+                "meta.return.type",
+                "meta.return-type",
+                "meta.cast",
+                "meta.type.annotation",
+                "support.type",
+                "entity.name.class",
+                "entity.name.type",
+                "storage.type.cs",
+                "storage.type.java"
+            ],
+            "settings": {
+                "foreground": "#4FC3F7" // lightBlue300
+            }
+        },
+        {
+            "name": "Function declarations",
+            "scope": [
+                "entity.name.function",
+                "entity.name.method"
+            ],
+            "settings": {
+                "foreground": "#4DD0E1" // cyan300
+            }
+        },
+        {
+            "name": "Control flow keywords",
+            "scope": "keyword.control",
+            "settings": {
+                "foreground": "#BA68C8" // purple300
+            }
+        },
+        {
+            "name": "Variable and parameter name",
+            "scope": [
+                "meta.parameter.type.variable",
+                "variable.parameter",
+                "variable",
+                "variable.name"
+            ],
+            "settings": {
+                "foreground": "#7986CB" // indigo300
+            }
+        },
+        {
+            "name": "CSS property value",
+            "scope": [
+                "support.property-value",
+                "constant.rgb-value",
+                "support.property-value.sass",
+                "constant.rgb-value.sass"
+            ],
+            "settings": {
+                "foreground": "#4DB6AC" // teal300
+            }
+        },
+        // custom !!
+        {
+            "name": "braces",
+            "scope": "brace",
+            "settings": {
+                "foreground": "#90A4AE" // blueGrey300
+            }
+        }
+    ]
+}
