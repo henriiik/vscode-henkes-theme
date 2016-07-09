@@ -25,8 +25,12 @@
       {
         "label": "Henke's Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/henke_plus.json"
+        "path": "./themes/henke.json"
       }
     ]
+  },
+  "dependencies": {
+    "tslint": "^3.13.0",
+    "typescript": "^1.8.10"
   }
 }
