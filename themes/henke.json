@@ -16,6 +16,14 @@
         },
         {
             "scope": [
+                "entity.name.selector.sass"
+            ],
+            "settings": {
+                "foreground": "#4FC3F7"
+            }
+        },
+        {
+            "scope": [
                 "brace"
             ],
             "settings": {
