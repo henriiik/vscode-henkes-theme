@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/henriiik/vscode-henkes-theme/tree/master",
   "engines": {
-    "vscode": "^0.10.1"
+    "vscode": "^1.5.0"
   },
   "categories": [
     "Themes"
