@@ -40,8 +40,8 @@ let henke = {
             settings: { foreground: lightBlue300 }
         },
         {
-            scope: ["brace"],
-            settings: { foreground: blueGrey300 }
+            scope: ["constant.other.bareword", "constant.other.key"],
+            settings: { foreground: green300 }
         }
     ],
 };
@@ -56,7 +56,7 @@ for (let file of ["src/dark_vs.json", "src/dark_plus.json"]) {
 
     let parsed = JSON.parse(json);
 
-    henke.settings = henke.settings.concat(parsed.settings);
+    henke.settings = parsed.settings.concat(henke.settings);
 }
 
 
