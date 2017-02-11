@@ -32,12 +32,8 @@ let henke = {
             settings: { foreground: "#FFFFFF" },
         },
         {
-            scope: ["string.escape.character"],
+            scope: ["constant.character.escape.perl"],
             settings: { foreground: pink300 }
-        },
-        {
-            scope: ["entity.name.selector.sass"],
-            settings: { foreground: lightBlue300 }
         },
         {
             scope: ["constant.other.bareword", "constant.other.key"],
