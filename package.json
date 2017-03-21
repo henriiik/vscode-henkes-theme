@@ -24,7 +24,7 @@
     "themes": [
       {
         "label": "Henke's Theme",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/henke.json"
       }
     ]

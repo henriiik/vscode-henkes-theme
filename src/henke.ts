@@ -26,7 +26,7 @@ let colors = [
 
 
 let henke = {
-    name: "Henke's Theme",
+    name: "Henke's Theme 2",
     settings: [
         {
             settings: { foreground: "#FFFFFF" },
